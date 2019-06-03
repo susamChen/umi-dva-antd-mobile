@@ -7,7 +7,7 @@ export default {
     ['umi-plugin-react', {
       antd: true,
       dva: true,
-      dynamicImport: false,
+      dynamicImport: { webpackChunkName: true },
       title: 'umi-dva-antd-mobile',
       dll: false,
       
